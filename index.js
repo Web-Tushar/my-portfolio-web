@@ -1,12 +1,12 @@
 // ===================navbar icon  toggle================ / /
 
-let menuIcon = document.querySelector(".menu_icon")
+let menuIcon = document.querySelector("#menu_icon")
 let navbar = document.querySelector(".navbar")
 // let menu_icon = document.querySelector(".menu_icon")
 // let menu_icon = document.querySelector(".menu_icon")
 
 menuIcon.onclick = () => {
-     menuIcon.classList.toggl("fa-xmark")
+     menuIcon.classList.toggle("fa-xmark")
      navbar.classList.toggle("active")
 }
 
@@ -32,11 +32,23 @@ window.onscroll = () => {
 
      });
      // ===================stickyn navbar================ / /
-     let header = document.querySelector("header")
-     header.classList.toggle('sticky', window.scrollY > 100);
-// ===================remove  toggle icon and navbar================ / /
-menuIcon.classList.remove(fa)
-
-
-
+     let heading = document.querySelector("header")
+     heading.classList.toggle('sticky', window.scrollY > 100);
+     // ===================remove  toggle icon and navbar================ / /
+     menuIcon.classList.remove("fa-xmark")
+     navbar.classList.remove("active")
 }
+
+// ======acroll reveal========
+
+ScrollReveal({
+     distance: "80px",
+     duration: 2000,
+     delay: 200
+
+});
+
+ScrollReveal().reveal('.home_content,heading', { origin: "top" });
+ScrollReveal().reveal('.home_img, services_container, .portfolio_box, .contact form', { origin: "bottom" });
+ScrollReveal().reveal('.home_content h1,about-img', { origin: "left" });
+ScrollReveal().reveal('.home_content p ,about-content', { origin: "right " });
