@@ -57,7 +57,7 @@ section {
 .navbar a {
      font-size: 1.5rem;
      color: var(--text-color);
-     margin: 4em;
+     margin: 1em;   
      font-weight: 700;
 }
 
@@ -416,7 +416,19 @@ span {
      }
 
      ;
-
+     .navbar {
+          display: flex;
+          gap: 20px;
+          font-size: 2rem;
+          margin: 3rem 0;
+          
+       }
+       .navbar a {
+          font-size: 1.5rem;
+          color: var(--text-color);
+          margin: 2em;   
+          font-weight: 600;
+     }
      .services {
           padding: 7rem;
      }
