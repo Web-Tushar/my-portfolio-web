@@ -246,14 +246,14 @@ span {
 
 }
 
-.    orfolio_container {
+.portfolio_container {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      align-items: center;
      gap: 2.5rem;
 }
 
-.porfolio_container .portfolio_box {
+.portfolio_container .portfolio_box {
      position: relative;
      border-radius: 2rem;
      box-shadow: 0 0 1rem var(--bg-color);
