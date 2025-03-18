@@ -237,16 +237,16 @@ span {
 
 }
 
-.portflio {
+.portfolio {
      background: var(--snd-bf-color);
 }
 
-.portflio h2 {
+.portfolio h2 {
      margin-bottom: 4rem;
 
 }
 
-.porfolio_container {
+.    orfolio_container {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      align-items: center;
@@ -423,7 +423,7 @@ span {
 
      ;
 
-     .portflio {
+     .portfolio {
           padding-bottom: 7rem;
      }
 

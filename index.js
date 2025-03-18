@@ -52,3 +52,13 @@ ScrollReveal().reveal('.home_content,heading', { origin: "top" });
 ScrollReveal().reveal('.home_img, services_container, .portfolio_box, .contact form', { origin: "bottom" });
 ScrollReveal().reveal('.home_content h1,about-img', { origin: "left" });
 ScrollReveal().reveal('.home_content p ,about-content', { origin: "right " });
+
+// =======typed js =====// 
+const typed = new Typed('.multiple-text', {
+     strings: ['Fontend Developer', 'Web Designer',],
+     typeSpeed: 50,
+     backspeed:50,
+     backDelay:1000,
+     loop:true
+
+   });
